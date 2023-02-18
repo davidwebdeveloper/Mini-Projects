@@ -119,7 +119,7 @@ main {
   flex-direction: column;
 }
 
-.guess-start {
+.message {
   margin-bottom: 8rem;
   font-size: 5.2rem;
 }

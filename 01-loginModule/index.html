@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form" id="form">
+        <h1 class="primary-heading">Register with Us</h1>
+        <div class="form-control">
+          <label for="username">User Name: </label>
+          <input
+            type="text"
+            id="username"
+            class="username"
+            placeholder="User name"
+          />
+          <small class="error">Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email: </label>
+          <input type="email" id="email" class="email" placeholder="Email" />
+          <small class="error">Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            class="password"
+            placeholder="Enter password"
+          />
+          <small class="error">Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password2">Confirm Password</label>
+          <input
+            type="password"
+            id="password2"
+            class="password2"
+            placeholder="Enter password again"
+          />
+          <small class="error">Error message</small>
+        </div>
+        <button onclick="submit" id="submit" class="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -21,3 +21,12 @@ for (let i = 0; i < showModels.length; i++) {
 
 closeModel.addEventListener("click", collapseModel);
 overlay.addEventListener("click", collapseModel);
+
+// Esc Key event
+
+document.addEventListener("keydown", function (e) {
+  console.log(e.key);
+  if (e.key === "Escape" && !hiddenBox.classList.contains(".hidden")) {
+    collapseModel();
+  }
+});
